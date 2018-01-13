@@ -1,0 +1,821 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jan 11 15:58:07 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44451 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1aea190
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file /tiantian/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20939)
+spawned uWSGI worker 1 (pid: 20942, cores: 2)
+spawned uWSGI worker 2 (pid: 20943, cores: 2)
+spawned uWSGI worker 3 (pid: 20944, cores: 2)
+spawned uWSGI worker 4 (pid: 20945, cores: 2)
+spawned uWSGI http 1 (pid: 20946)
+--- no python application found, check your startup logs for errors ---
+[pid: 20945|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 698 bytes} [Thu Jan 11 15:59:00 2018] GET / => generated 21 bytes in 34 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20945|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 685 bytes} [Thu Jan 11 15:59:01 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 20945|app: -1|req: -1/3] 127.0.0.1 () {38 vars in 709 bytes} [Thu Jan 11 15:59:21 2018] GET /goods/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 20945|app: -1|req: -1/4] 127.0.0.1 () {38 vars in 710 bytes} [Thu Jan 11 16:01:15 2018] GET /goods/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 20946)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jan 11 16:09:03 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44163 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1936190
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 6 seconds on interpreter 0x1936190 pid: 21176 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 21176)
+spawned uWSGI worker 1 (pid: 21184, cores: 2)
+spawned uWSGI worker 2 (pid: 21185, cores: 2)
+spawned uWSGI worker 3 (pid: 21186, cores: 2)
+spawned uWSGI worker 4 (pid: 21187, cores: 2)
+spawned uWSGI http 1 (pid: 21188)
+[pid: 21185|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 710 bytes} [Thu Jan 11 16:09:50 2018] GET /goods/ => generated 11774 bytes in 5660 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 21185|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 820 bytes} [Thu Jan 11 16:09:58 2018] GET /static/goods_image/%E4%BB%A5%E8%89%B2%E5%88%97%E8%91%A1%E8%90%84%E6%9F%9A.jpg => generated 115 bytes in 87 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21187|app: 0|req: 1/3] 127.0.0.1 () {40 vars in 844 bytes} [Thu Jan 11 16:09:58 2018] GET /static/goods_image/%E7%A6%8F%E5%BB%BA%E5%B9%B3%E5%92%8C%E7%99%BD%E5%BF%83%E8%9C%9C%E6%9F%9A.jpg => generated 121 bytes in 85 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21187|app: 0|req: 3/4] 127.0.0.1 () {40 vars in 832 bytes} [Thu Jan 11 16:09:58 2018] GET /static/goods_image/%E8%B6%8A%E5%8D%97%E7%99%BD%E5%BF%83%E7%81%AB%E9%BE%99%E6%9E%9C.jpg => generated 118 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21187|app: 0|req: 3/5] 127.0.0.1 () {40 vars in 856 bytes} [Thu Jan 11 16:09:58 2018] GET /static/goods_image/%E6%96%B0%E7%96%86%E5%BA%93%E5%B0%94%E5%8B%92%E7%B2%BE%E9%80%89%E9%A6%99%E6%A2%A8.jpg => generated 124 bytes in 16 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21187|app: 0|req: 4/6] 127.0.0.1 () {38 vars in 691 bytes} [Thu Jan 11 16:09:58 2018] GET /static/js/slideshow.js => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21186|app: 0|req: 1/7] 127.0.0.1 () {40 vars in 764 bytes} [Thu Jan 11 16:10:13 2018] GET /cart/carts/ => generated 7337 bytes in 483 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 21187|app: 0|req: 5/8] 127.0.0.1 () {38 vars in 782 bytes} [Thu Jan 11 16:10:14 2018] GET /static/goods_image/%E8%B6%8A%E5%8D%97%E7%99%BD%E5%BF%83%E7%81%AB%E9%BE%99%E6%9E%9C.jpg => generated 118 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21184|app: 0|req: 1/9] 127.0.0.1 () {38 vars in 770 bytes} [Thu Jan 11 16:10:14 2018] GET /static/goods_image/%E4%BB%A5%E8%89%B2%E5%88%97%E8%91%A1%E8%90%84%E6%9F%9A.jpg => generated 115 bytes in 60 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21186|app: 0|req: 2/10] 127.0.0.1 () {40 vars in 770 bytes} [Thu Jan 11 16:10:22 2018] GET /goods/detail4/ => generated 8207 bytes in 291 msecs (HTTP/1.1 200) 4 headers in 130 bytes (1 switches on core 1)
+[pid: 21184|app: 0|req: 2/11] 127.0.0.1 () {38 vars in 804 bytes} [Thu Jan 11 16:10:23 2018] GET /static/goods_image/%E7%A6%8F%E5%BB%BA%E5%B9%B3%E5%92%8C%E7%99%BD%E5%BF%83%E8%9C%9C%E6%9F%9A.jpg => generated 121 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21186|app: 0|req: 3/12] 127.0.0.1 () {38 vars in 780 bytes} [Thu Jan 11 16:10:23 2018] GET /static/goods_image/%E4%BB%A5%E8%89%B2%E5%88%97%E8%91%A1%E8%90%84%E6%9F%9A.jpg => generated 115 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21187|app: 0|req: 6/13] 127.0.0.1 () {38 vars in 728 bytes} [Thu Jan 11 16:10:23 2018] GET /goods/detail4/js/jquery-1.12.2.js => generated 107 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21187|app: 0|req: 7/14] 127.0.0.1 () {40 vars in 769 bytes} [Thu Jan 11 16:10:27 2018] GET /goods/ => generated 11774 bytes in 268 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 21187|app: 0|req: 8/15] 127.0.0.1 () {38 vars in 772 bytes} [Thu Jan 11 16:10:28 2018] GET /static/goods_image/%E4%BB%A5%E8%89%B2%E5%88%97%E8%91%A1%E8%90%84%E6%9F%9A.jpg => generated 115 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21186|app: 0|req: 4/16] 127.0.0.1 () {38 vars in 796 bytes} [Thu Jan 11 16:10:28 2018] GET /static/goods_image/%E7%A6%8F%E5%BB%BA%E5%B9%B3%E5%92%8C%E7%99%BD%E5%BF%83%E8%9C%9C%E6%9F%9A.jpg => generated 121 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21185|app: 0|req: 3/17] 127.0.0.1 () {38 vars in 784 bytes} [Thu Jan 11 16:10:28 2018] GET /static/goods_image/%E8%B6%8A%E5%8D%97%E7%99%BD%E5%BF%83%E7%81%AB%E9%BE%99%E6%9E%9C.jpg => generated 118 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21184|app: 0|req: 3/18] 127.0.0.1 () {38 vars in 808 bytes} [Thu Jan 11 16:10:28 2018] GET /static/goods_image/%E6%96%B0%E7%96%86%E5%BA%93%E5%B0%94%E5%8B%92%E7%B2%BE%E9%80%89%E9%A6%99%E6%A2%A8.jpg => generated 124 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21184|app: 0|req: 4/19] 127.0.0.1 () {38 vars in 698 bytes} [Thu Jan 11 16:10:28 2018] GET /static/js/slideshow.js => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21186|app: 0|req: 5/20] 127.0.0.1 () {38 vars in 772 bytes} [Thu Jan 11 16:10:28 2018] GET /static/goods_image/%E4%BB%A5%E8%89%B2%E5%88%97%E8%91%A1%E8%90%84%E6%9F%9A.jpg => generated 115 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21185|app: 0|req: 4/21] 127.0.0.1 () {38 vars in 796 bytes} [Thu Jan 11 16:10:28 2018] GET /static/goods_image/%E7%A6%8F%E5%BB%BA%E5%B9%B3%E5%92%8C%E7%99%BD%E5%BF%83%E8%9C%9C%E6%9F%9A.jpg => generated 121 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21186|app: 0|req: 6/22] 127.0.0.1 () {38 vars in 784 bytes} [Thu Jan 11 16:10:28 2018] GET /static/goods_image/%E8%B6%8A%E5%8D%97%E7%99%BD%E5%BF%83%E7%81%AB%E9%BE%99%E6%9E%9C.jpg => generated 118 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21185|app: 0|req: 5/23] 127.0.0.1 () {38 vars in 808 bytes} [Thu Jan 11 16:10:28 2018] GET /static/goods_image/%E6%96%B0%E7%96%86%E5%BA%93%E5%B0%94%E5%8B%92%E7%B2%BE%E9%80%89%E9%A6%99%E6%A2%A8.jpg => generated 124 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21184|app: 0|req: 5/24] 127.0.0.1 () {38 vars in 698 bytes} [Thu Jan 11 16:10:28 2018] GET /static/js/slideshow.js => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21184|app: 0|req: 6/25] 127.0.0.1 () {38 vars in 717 bytes} [Thu Jan 11 16:10:45 2018] GET /goods/ => generated 11774 bytes in 199 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 21184|app: 0|req: 7/26] 127.0.0.1 () {38 vars in 772 bytes} [Thu Jan 11 16:10:46 2018] GET /static/goods_image/%E4%BB%A5%E8%89%B2%E5%88%97%E8%91%A1%E8%90%84%E6%9F%9A.jpg => generated 115 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21185|app: 0|req: 6/27] 127.0.0.1 () {38 vars in 796 bytes} [Thu Jan 11 16:10:46 2018] GET /static/goods_image/%E7%A6%8F%E5%BB%BA%E5%B9%B3%E5%92%8C%E7%99%BD%E5%BF%83%E8%9C%9C%E6%9F%9A.jpg => generated 121 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21187|app: 0|req: 10/28] 127.0.0.1 () {38 vars in 808 bytes} [Thu Jan 11 16:10:46 2018] GET /static/goods_image/%E6%96%B0%E7%96%86%E5%BA%93%E5%B0%94%E5%8B%92%E7%B2%BE%E9%80%89%E9%A6%99%E6%A2%A8.jpg => generated 124 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21185|app: 0|req: 7/29] 127.0.0.1 () {38 vars in 698 bytes} [Thu Jan 11 16:10:46 2018] GET /static/js/slideshow.js => generated 96 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21187|app: 0|req: 10/30] 127.0.0.1 () {38 vars in 784 bytes} [Thu Jan 11 16:10:46 2018] GET /static/goods_image/%E8%B6%8A%E5%8D%97%E7%99%BD%E5%BF%83%E7%81%AB%E9%BE%99%E6%9E%9C.jpg => generated 118 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21186|app: 0|req: 7/31] 127.0.0.1 () {38 vars in 772 bytes} [Thu Jan 11 16:10:46 2018] GET /static/goods_image/%E4%BB%A5%E8%89%B2%E5%88%97%E8%91%A1%E8%90%84%E6%9F%9A.jpg => generated 115 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21186|app: 0|req: 8/32] 127.0.0.1 () {38 vars in 796 bytes} [Thu Jan 11 16:10:46 2018] GET /static/goods_image/%E7%A6%8F%E5%BB%BA%E5%B9%B3%E5%92%8C%E7%99%BD%E5%BF%83%E8%9C%9C%E6%9F%9A.jpg => generated 121 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21186|app: 0|req: 9/33] 127.0.0.1 () {38 vars in 784 bytes} [Thu Jan 11 16:10:46 2018] GET /static/goods_image/%E8%B6%8A%E5%8D%97%E7%99%BD%E5%BF%83%E7%81%AB%E9%BE%99%E6%9E%9C.jpg => generated 118 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 21186|app: 0|req: 10/34] 127.0.0.1 () {38 vars in 808 bytes} [Thu Jan 11 16:10:46 2018] GET /static/goods_image/%E6%96%B0%E7%96%86%E5%BA%93%E5%B0%94%E5%8B%92%E7%B2%BE%E9%80%89%E9%A6%99%E6%A2%A8.jpg => generated 124 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 21187|app: 0|req: 11/35] 127.0.0.1 () {38 vars in 698 bytes} [Thu Jan 11 16:10:46 2018] GET /static/js/slideshow.js => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 21188)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jan 11 16:51:42 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1d92070
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x1d92070 pid: 21798 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 21798)
+spawned uWSGI worker 1 (pid: 21801, cores: 2)
+spawned uWSGI worker 2 (pid: 21802, cores: 2)
+spawned uWSGI worker 3 (pid: 21803, cores: 2)
+spawned uWSGI worker 4 (pid: 21804, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jan 11 17:28:28 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x24c0070
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x24c0070 pid: 22123 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22123)
+spawned uWSGI worker 1 (pid: 22126, cores: 2)
+spawned uWSGI worker 2 (pid: 22127, cores: 2)
+spawned uWSGI worker 3 (pid: 22128, cores: 2)
+spawned uWSGI worker 4 (pid: 22129, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jan 11 17:44:47 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x983070
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x983070 pid: 22279 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22279)
+spawned uWSGI worker 1 (pid: 22282, cores: 2)
+spawned uWSGI worker 2 (pid: 22283, cores: 2)
+spawned uWSGI worker 3 (pid: 22284, cores: 2)
+spawned uWSGI worker 4 (pid: 22285, cores: 2)
+[pid: 22284|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 837 bytes} [Thu Jan 11 17:44:59 2018] GET / => generated 74 bytes in 947 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 22284|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 756 bytes} [Thu Jan 11 17:45:05 2018] GET /goods/ => generated 11774 bytes in 1653 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 22282|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 815 bytes} [Thu Jan 11 17:45:13 2018] GET /goods/list1_1_1/ => generated 5651 bytes in 237 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 22282|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 821 bytes} [Thu Jan 11 17:45:17 2018] GET /goods/detail2/ => generated 7902 bytes in 286 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 22282|app: 0|req: 3/5] 127.0.0.1 () {42 vars in 769 bytes} [Thu Jan 11 17:45:17 2018] GET /goods/detail2/js/jquery-1.12.2.js => generated 107 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 22285|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 794 bytes} [Thu Jan 11 17:45:21 2018] GET /goods/ => generated 11774 bytes in 141 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 22282|app: 0|req: 4/7] 127.0.0.1 () {42 vars in 763 bytes} [Thu Jan 11 21:52:21 2018] GET /goods/ => generated 11774 bytes in 1224 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 3 (pid: 22284)...
+Gracefully killing worker 1 (pid: 22282)...
+Gracefully killing worker 4 (pid: 22285)...
+Gracefully killing worker 2 (pid: 22283)...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /home/liudi/django/tiantian
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /home/liudi/.virtualenvs/django1/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jan 11 22:09:15 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7744
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1dc0e80
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 8 seconds on interpreter 0x1dc0e80 pid: 22279 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 22279)
+spawned uWSGI worker 1 (pid: 23680, cores: 2)
+spawned uWSGI worker 2 (pid: 23681, cores: 2)
+spawned uWSGI worker 3 (pid: 23682, cores: 2)
+spawned uWSGI worker 4 (pid: 23683, cores: 2)
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 10:51:57 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 10:59:05 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 11:00:31 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 11:01:39 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 11:05:36 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 11:08:28 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x19560e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 5 seconds on interpreter 0x19560e0 pid: 3661 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3661)
+spawned uWSGI worker 1 (pid: 3666, cores: 2)
+spawned uWSGI worker 2 (pid: 3667, cores: 2)
+spawned uWSGI worker 3 (pid: 3668, cores: 2)
+spawned uWSGI worker 4 (pid: 3669, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 3666)...
+worker 1 buried after 4 seconds
+worker 2 buried after 4 seconds
+worker 3 buried after 4 seconds
+worker 4 buried after 4 seconds
+binary reloading uWSGI...
+chdir() to /home/liudi/django/tiantian
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /home/liudi/.virtualenvs/django1/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 11:32:23 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1a15ee0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 11 seconds on interpreter 0x1a15ee0 pid: 3661 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 3661)
+spawned uWSGI worker 1 (pid: 4101, cores: 2)
+spawned uWSGI worker 2 (pid: 4102, cores: 2)
+spawned uWSGI worker 3 (pid: 4103, cores: 2)
+spawned uWSGI worker 4 (pid: 4104, cores: 2)
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 11:38:14 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 11:38:42 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 11:41:31 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 11:43:18 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 11:49:46 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Jan 13 14:03:19 2018] ***
+compiled with version: 5.4.0 20160609 on 11 January 2018 15:45:31
+os: Linux-4.13.0-26-generic #29~16.04.2-Ubuntu SMP Tue Jan 9 22:00:44 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/liudi/django/tiantian
+writing pidfile to uwsgi.pid
+detected binary path: /home/liudi/.virtualenvs/django1/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/liudi/django/tiantian
+your processes number limit is 7675
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x25cf0e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x25cf0e0 pid: 3143 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3143)
+spawned uWSGI worker 1 (pid: 3151, cores: 2)
+spawned uWSGI worker 2 (pid: 3152, cores: 2)
+spawned uWSGI worker 3 (pid: 3153, cores: 2)
+spawned uWSGI worker 4 (pid: 3154, cores: 2)
+[pid: 3151|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 737 bytes} [Sat Jan 13 14:06:50 2018] GET / => generated 74 bytes in 429 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 3152|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 724 bytes} [Sat Jan 13 14:06:51 2018] GET /favicon.ico => generated 85 bytes in 36 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 3154|app: 0|req: 1/3] 127.0.0.1 () {42 vars in 747 bytes} [Sat Jan 13 14:06:54 2018] GET /admin => generated 0 bytes in 48 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 0)
+[pid: 3153|app: 0|req: 1/4] 127.0.0.1 () {42 vars in 749 bytes} [Sat Jan 13 14:06:55 2018] GET /admin/ => generated 7037 bytes in 1189 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 3152|app: 0|req: 2/5] 127.0.0.1 () {42 vars in 737 bytes} [Sat Jan 13 14:07:01 2018] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 3152|app: 0|req: 3/6] 127.0.0.1 () {44 vars in 768 bytes} [Sat Jan 13 14:12:48 2018] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 3152|app: 0|req: 4/7] 127.0.0.1 () {42 vars in 749 bytes} [Sat Jan 13 14:12:54 2018] GET /goods/ => generated 11774 bytes in 195 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
